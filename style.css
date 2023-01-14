@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Navbar */
+.nav-back{
+    background-color: antiquewhite;
+    margin-bottom: 85px;
+}
+.nav-elements{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.logo h1{
+    font-size: 47px;
+    font-weight: 700;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+
+/* Banner */
+.head-banner{
+    padding-top: 50px;
+}
+.headline{
+    text-align: center;
+    width: 855px;
+    margin: 0 auto;
+}
+.headline h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.headline p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.headline button, .team-text button{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 30px 0 50px;
+}
+.banner{
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+
+/* Team */
+.team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin: 0 auto;
+}
+.team-text h1{
+    color: #727272;
+    font-size: 47px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.team-text{
+    width: 530px;
+}
+.team-text strong{
+    color: #131313;
+}
+.team-text b{
+    color: #FF900E;
+}
+.team-text p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.team-img{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Features */
+.all-features{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+    gap: 90px;
+    padding-top: 130px;
+}
+.feature-head h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 47px;
+    border-left: 6px solid #FF900E;
+    padding: 0 0 0 20px;
+}
+.feature-head p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 25px 0 60px 0;
+}
+.feature-details{
+    padding-bottom: 70px;
+    margin-left: 50px;
+}
+.feature-details p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.feature-head img{
+    width: 800px;
+}
+.big-btn{
+    padding: 46px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+}
+.big-btn h1{
+    font-size: 47px;
+    font-weight: 700;
+}
+.big-btn p{
+    font-size: 16px;
+}
+
+
+/* Some Facts */
+.facts-back{
+    width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 180px;
+}
+.facts h1{
+    font-size: 47px;
+    font-weight: 700px;
+    padding-bottom: 25px;
+}
+.facts p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 100px;
+}
+.facts-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 90px;
+}
+.box{
+    height: 240px;
+    width: 240px;
+    border: 3px #FF900E solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box h1{
+    font-size: 55px;
+    color: #424242;
+}
+.box p{
+    font-size: 16px;
+    color: #727272;
+}
+
+
+/* Sponsors */
+.sponsors{
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.sponsors h1{
+    font-size: 47px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.sponsors p{
+    color: #727272;
+    font-size: 16px;
+}
+.sponsor-logos{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+.sponsor-logos img{
+    width: 130px;
+}
+
+
+/* Footer */
+.foot-back{
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    width: 1440px;
+    margin: 0 auto 70px;
+}
+.foot-back p{
+    font-size: 16px;
+    color: #424242;
+    padding: 30px 0;
+}
